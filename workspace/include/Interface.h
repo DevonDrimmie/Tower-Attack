@@ -1,0 +1,12 @@
+void startCurses();
+void endCurses();
+void drawInstructions();
+void drawStore();
+void drawStart();
+void drawLevelWin();
+char drawLevelLost();
+char drawGameLost();
+char drawGameWin();
+void getInfo(int * gangsterSelection);
+void removeNewline(char buffer[]);
+int parse(char * tempType, char * tempAmount, int * coins);
